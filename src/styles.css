@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #FFB2BA;
+    --secondary-color: #FFC0A3;
+    --accent-color: #EC7199;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.homepage-link {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 10px;
+    color: var(--accent-color);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    opacity: 0.7;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+  
+.contact-me-button, .about-me-button {
+    margin: 60px 10px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 1;
+    border: none;
+    box-shadow: var(--box-shadow);
+}
+
+.contact-me-button {
+    background-color: var(--primary-color);
+}
+
+.about-me-button {
+    background-color: var(--secondary-color);
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 300ms ease-in;
+}
+
+footer {
+    text-align: center;
+    opacity: 0.7;
+}
+
+footer a {
+color: var(--accent-color);
+font-weight: 800;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+.about-text-1, .about-text-2 {
+    margin: 20px 10px;
+    padding: 15px 20px;
+    max-width: 15%;
+    text-align: justify;
+}
+
+.contact-me {
+    font-size: 20px;
+    text-align: center;
+    margin: 80px;
+}
+
+.e-mail {
+    color: var(--accent-color);
+}
+
+a:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
